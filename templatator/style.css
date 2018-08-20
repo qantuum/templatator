@@ -1,0 +1,34 @@
+/*
+Theme Name: templatator
+Author: qantuum
+Author URI: https://www.hostinger.fr/tutoriels/creer-un-theme-wordpress/
+Description: My first responsive wordpress theme - created with the help of a hostinger tutorial. From this tutorial, comments and Bootstrap has been added. Also a verrrrrry nice font in the website.
+Version: unicorn
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Pacifico', cursive;
+
+}
+
+/* title + menu */
+.my-logo {
+	background-image: url('https://beautifulpixels.com/wp-content/uploads/2018/08/FF2533CD-3ACA-41AE-819D-8E036C3EF266.jpeg');
+	background-repeat: initial;
+	background-size: cover;
+	background-position: center top;
+	height: 15rem;
+	margin-bottom: 2rem;
+	border-bottom: 0.3rem double dimgray;
+}
+
+.my-logo ul {
+	list-style: none;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+/* title + menu end */
